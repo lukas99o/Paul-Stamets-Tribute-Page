@@ -21,3 +21,6 @@ To view this project:
    ```bash
    git clone https://github.com/yourusername/paul-stamets-tribute.git
 2. Open the index.html file in any web browser of your choice.
+
+![Paul Stamets Picture](Paul-Stamets.jpg)
+
