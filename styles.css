@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+#title, #artist {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#title {
+    color: #555;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#artist {
+    font-size: 32px;
+    color: #222;
+}
+
+#short-description {
+    width: 70%;
+    align-self: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#img-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+#img-caption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #666;
+}
+
+#tribute-info ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#tribute-info li {
+    background: linear-gradient(145deg, #e7e7ff, #ffffff);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #5c67cc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5c67cc;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#tribute-link:hover {
+    background-color: #4a54e1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #title {
+        font-size: 20px; 
+    }
+
+    #artist {
+        font-size: 28px; 
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #tribute-info li {
+        padding: 8px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 10px; 
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #title, #artist {
+        font-size: 18px; 
+    }
+
+    #tribute-info li {
+        font-size: 13px; 
+    }
+}
